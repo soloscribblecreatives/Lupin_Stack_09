@@ -7,4 +7,17 @@
 	position: absolute;
 	width: 1024px;
 	height: 768px;
+	z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  left: 240px;
+  top: 120px;
+  width: 488px;
+  height: 283px;
+  animation: zoomIn 0.3s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  z-index: 3;
 }
