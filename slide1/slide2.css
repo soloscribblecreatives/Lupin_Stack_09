@@ -20,10 +20,10 @@
 
 .pop_open1 {
 	position: absolute;
-  left: 0px;
-  top: 696px;
-  width: 60px;
-  height: 72px;
+  left: 43px;
+  top: 699px;
+  width: 87px;
+  height: 69px;
 	z-index: 5;
 }
 
@@ -46,10 +46,10 @@
 
 .pop_open2 {
 	position: absolute;
-  left: 60px;
-  top: 696px;
-  width: 60px;
-  height: 72px;
+  left: 132px;
+  top: 699px;
+  width: 87px;
+  height: 69px;
 	z-index: 5;
 }
 

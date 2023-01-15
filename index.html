@@ -5,7 +5,7 @@
 <meta http-equiv="cache-control" content="max-age=200"/>
 <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Lupimeg</title>
+<title>Valentas</title>
 <link rel="stylesheet" type="text/css" href="animate.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="global.css" media="screen"/>
 
@@ -32,6 +32,8 @@
           <div class="slides"><img src="thumbs/05.png" alt=""></div>
           <div class="slides"><img src="thumbs/06.png" alt=""></div>
           <div class="slides"><img src="thumbs/07.png" alt=""></div>
+          <div class="slides"><img src="thumbs/08.png" alt=""></div>
+          <div class="slides"><img src="thumbs/09.png" alt=""></div>
       </div>
     </div>
     <div class="box_btn"></div>
@@ -69,25 +71,31 @@ if (typeof(localStorage.getItem("currentcustomslideflag"))!='undefined' && local
 	
 switch(custcomslideid){
 	case 1:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide1/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 2:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide2/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 3:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide3/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide3/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide3/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 4:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide4/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide4/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide4/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 5:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide5/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide5/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide5/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 6:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide6/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide6/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide6/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 7:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide7/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide7/1.jpg" width="1024" height="768" alt=""></div><div class="popup2"><img src="slide7/3.jpg" width="1024" height="768" alt=""></div><div class="pop_open2" onclick="pop_open2()"></div><div class="pop_close2" onclick="pop_close2()"></div>';
+	break;
+	case 8:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide8/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide8/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div><div class="popup2"><img src="slide8/3.jpg" width="1024" height="768" alt=""></div><div class="pop_open2" onclick="pop_open2()"></div><div class="pop_close2" onclick="pop_close2()"></div>';
+	break;
+	case 9:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide9/1.jpg" width="1024" height="768" alt=""></div>';
 	break;
 }
 
@@ -98,7 +106,7 @@ switch(custcomslideid){
 	 
 }else{
 
-$("#main_content").html('<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>');
+$("#main_content").html('<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide1/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>');
 }
 });
 </script> 

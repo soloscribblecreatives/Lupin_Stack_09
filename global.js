@@ -198,7 +198,7 @@ if (typeof(localStorage.getItem('currentslide'))!='undefined' && localStorage.ge
 	
  } 
  
-	if(nextSlideNo <= 7){//number 3 is number of total slides present
+	if(nextSlideNo <= 9){//number 3 is number of total slides present
 	// alert(nextSlideNo);
 	var tempNext = localStorage.getItem(currentContentId+"_"+contentName+"_slideNo_"+nextSlideNo);
 
@@ -302,10 +302,10 @@ if(direction == 'b') {
 //custom slide changes ends here....
 
 	else{
-	if(page_id <= 7){
+	if(page_id <= 9){
 		page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 8){
+		if(page_id == 10){
             flag=1;
         }
 	}
@@ -385,25 +385,31 @@ currentSlide();
 var selectedContentPath='';
 switch(pg_id){
 	case 1:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide1/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 2:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide2/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 3:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide3/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide3/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide3/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 4:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide4/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide4/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide4/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 5:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide5/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide5/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide5/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 6:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide6/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide6/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide6/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div>';
 	break;
 	case 7:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide7/1.jpg" width="1024" height="768" alt=""></div><div class="logo"><img src="slide1/2.gif"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide7/1.jpg" width="1024" height="768" alt=""></div><div class="popup2"><img src="slide7/3.jpg" width="1024" height="768" alt=""></div><div class="pop_open2" onclick="pop_open2()"></div><div class="pop_close2" onclick="pop_close2()"></div>';
+	break;
+	case 8:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide8/1.jpg" width="1024" height="768" alt=""></div><div class="popup1"><img src="slide8/2.jpg" width="1024" height="768" alt=""></div><div class="pop_open1" onclick="pop_open1()"></div><div class="pop_close1" onclick="pop_close1()"></div><div class="popup2"><img src="slide8/3.jpg" width="1024" height="768" alt=""></div><div class="pop_open2" onclick="pop_open2()"></div><div class="pop_close2" onclick="pop_close2()"></div>';
+	break;
+	case 9:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide9/1.jpg" width="1024" height="768" alt=""></div>';
 	break;
 }
 
