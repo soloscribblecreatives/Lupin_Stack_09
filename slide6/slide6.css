@@ -19,12 +19,60 @@
 
 .s1_2 {
 	position: absolute;
-  left: 572px;
-  top: 458px;
-  width: 373px;
-  height: 215px;
-	animation: pulse 1s 2;
+  left: 322px;
+  top: 413px;
+  width: 375px;
+  height: 184px;
+	animation: zoomIn 0.5s;
 	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s1_3 {
+	position: absolute;
+  left: 71px;
+  top: 249px;
+  width: 115px;
+  height: 148px;
+	animation: bounceIn 0.3s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s1_4 {
+	position: absolute;
+  left: 68px;
+  top: 419px;
+  width: 121px;
+  height: 133px;
+	animation: bounceIn 0.3s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s1_5 {
+	position: absolute;
+  left: 822px;
+  top: 259px;
+  width: 129px;
+  height: 136px;
+	animation: bounceIn 0.3s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s1_6 {
+	position: absolute;
+  left: 830px;
+  top: 419px;
+  width: 113px;
+  height: 157px;
+	animation: bounceIn 0.3s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -54,7 +102,6 @@
   height: 91px;
 	z-index: 10;
 }
-
 
 .hit_pop2 {
 	position: absolute;
