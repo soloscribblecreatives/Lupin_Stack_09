@@ -17,18 +17,6 @@
 	z-index: 1;
 }
 
-.s1_2 {
-	position: absolute;
-  left: 296px;
-  top: 333px;
-  width: 432px;
-  height: 26px;
-	animation: flipInX 0.5s;
-	animation-delay: 0.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
 .takeCover {
 	position: absolute;
   left: 806px;
