@@ -122,7 +122,7 @@
 @keyframes stampIn {
 	0%	{
 		transform-origin: 50% 50%;
-		transform: scale(2);
+		transform: scale(1.5);
 		opacity: 1;
 	}
 	100%	{

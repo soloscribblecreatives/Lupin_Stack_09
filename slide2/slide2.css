@@ -35,7 +35,7 @@
   top: 466px;
   width: 727px;
   height: 204px;
-	animation: flipInX 1s;
+	animation: fadeInUpSmall 0.7s;
 	animation-delay: 0.7s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -127,4 +127,19 @@
 	height: 768px;
 	display: none;
 	z-index: 20;
+}
+
+
+@keyframes fadeInUpSmall {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
