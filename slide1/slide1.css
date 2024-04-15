@@ -10,23 +10,30 @@
 	z-index: 1;
 }
 
+.background {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
 .clickTreat {
   position: absolute;
-  left: 787px;
-  top: 243px;
-  width: 237px;
-  height: 227px;
-  z-index: 10;
+  left: 427px;
+  top: 589px;
+  width: 421px;
+  height: 137px;
+  z-index: 30;
 }
 
 
 .s1_2 {
 	position: absolute;
-  left: 831px;
-  top: 280px;
-  width: 193px;
-  height: 154px;
-	animation: slideInRight 0.5s;
+  left: 244px;
+  top: 129px;
+  width: 547px;
+  height: 64px;
+	animation: flipInX 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -34,35 +41,54 @@
 
 .s1_3 {
 	position: absolute;
-  left: 962px;
-  top: 384px;
-  width: 44px;
-  height: 38px;
-	animation: flashLong 2s infinite;
-	animation-delay: 0.5s;
+  left: 723px;
+  top: 387px;
+  width: 67px;
+  height: 67px;
+	animation: rotateInLoop 2s infinite linear;
+	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
+@keyframes flashIt {
+  0%, 50%, 100% {
+    opacity: 0.5;
+  }
+
+  25%, 75% {
+    opacity: 1;
+  }
+}
+
 .s1_4 {
 	position: absolute;
-	width: 1024px;
-	height: 768px;
-	display: none;
-	z-index: 7;
+  left: 565px;
+  top: 366px;
+  width: 19px;
+  height: 21px;
+	animation: rotateInLoop 2s infinite linear;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+@keyframes rotateInLoop {
+	0%  {
+		-webkit-transform: rotate(0deg);
+	}
+	100%	{
+		-webkit-transform: rotate(359deg);
+	}
 }
 
 .s1_5 {
 	position: absolute;
-  left: 490px;
-  top: 277px;
-  width: 511px;
-  height: 147px;
-	animation: zoomIn 0.3s;
-	animation-delay: 0.1s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 8;
+  left: 381px;
+  top: 128px;
+  width: 484px;
+  height: 67px;
+	z-index: 5;
 }
 
 .s1_6 {
