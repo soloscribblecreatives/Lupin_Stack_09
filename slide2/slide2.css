@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1_1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s1_2 {
+	position: absolute;
+  left: 93px;
+  top: 65px;
+  width: 832px;
+  height: 103px;
+	animation: flipInX 0.5s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 15;
+}
+
+.s1_3 {
+	position: absolute;
+  left: 151px;
+  top: 510px;
+  width: 577px;
+  height: 137px;
+	animation: upDown 1s infinite;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	transition-timing-function: ease-in;
+	z-index: 15;
+}
+
+
+@keyframes upDown {
+  0% {
+    opacity: 1;
+  left: 151px;
+  top: 510px;
+  width: 577px;
+  height: 137px;
+  }
+
+  50% {
+    opacity: 1;
+  left: 151px;
+  top: 495px;
+  width: 577px;
+  height: 137px;
+  }
+  
+  100% {
+    opacity: 1;
+  left: 151px;
+  top: 510px;
+  width: 577px;
+  height: 137px;
+  }
+}
