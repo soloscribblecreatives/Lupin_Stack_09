@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 194px;
+  top: 610px;
+  width: 65px;
+  height: 65px;
+	animation: flashLong 1s infinite;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 75% {
+    opacity: 1;
+  }
+}

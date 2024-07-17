@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 366px;
+  top: 302px;
+  width: 245px;
+  height: 245px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 554px;
+  top: 399px;
+  width: 262px;
+  height: 262px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s4 {
+	position: absolute;
+  left: 757px;
+  top: 326px;
+  width: 204px;
+  height: 203px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.8s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
