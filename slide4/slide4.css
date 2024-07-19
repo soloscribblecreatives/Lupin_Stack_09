@@ -24,17 +24,29 @@
 
 .s3 {
 	position: absolute;
+  left: 789px;
+  top: 238px;
+  width: 116px;
+  height: 39px;
+	animation: flashLong 2s infinite;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 7;
+}
+
+.s4 {
+	position: absolute;
   left: 771px;
   top: 403px;
   width: 150px;
   height: 58px;
-	animation: flash 0.3s;
+	animation: fadeIn 0.3s;
 	animation-delay: 1.2s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
-.s4 {
+.s5 {
 	position: absolute;
   left: 771px;
   top: 469px;
@@ -66,4 +78,14 @@
   width: 40px;
   height: 41px;
 	}
+}
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
 }
