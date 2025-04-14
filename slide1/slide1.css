@@ -19,7 +19,7 @@
   width: 1024px;
   height: 768px;
 	animation: fadeIn 1s;
-	animation-delay: 2s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
@@ -31,7 +31,7 @@
   width: 1024px;
   height: 768px;
 	animation: fadeIn 1s;
-	animation-delay: 4s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -43,7 +43,7 @@
   width: 1024px;
   height: 768px;
 	animation: fadeIn 1s;
-	animation-delay: 6s;
+	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -55,7 +55,7 @@
   width: 1024px;
   height: 768px;
 	animation: fadeIn 1s;
-	animation-delay: 8s;
+	animation-delay: 4s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -67,7 +67,7 @@
   width: 1024px;
   height: 768px;
 	animation: fadeIn 1s;
-	animation-delay: 10s;
+	animation-delay: 5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
