@@ -12,401 +12,160 @@
 
 .s2 {
 	position: absolute;
-  left: 415px;
-  top: 98px;
-  width: 600px;
-  height: 237px;
-	animation: fadeIn 0.5s;
-	animation-delay: 0.1s;
+  left: 282px;
+  top: 82px;
+  width: 165px;
+  height: 117px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s3 {
 	position: absolute;
-  left: 426px;
-  top: 124px;
-  width: 497px;
-  height: 153px;
-	animation: zoomIn 0.5s;
-	animation-delay: 0.1s;
+  left: 447px;
+  top: 81px;
+  width: 215px;
+  height: 120px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
-  left: 326px;
-  top: 457px;
-  width: 220px;
-  height: 297px;
-	animation: flipInY 0.5s;
-	animation-delay: 0.6s;
+  left: 351px;
+  top: 528px;
+  width: 524px;
+  height: 91px;
+	animation: flipInX 0.5s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 579px;
-  top: 457px;
-  width: 219px;
-  height: 297px;
-	animation: flipInY 0.5s;
-	animation-delay: 0.8s;
+  left: 528px;
+  top: 431px;
+  width: 88px;
+  height: 86px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.2s;
 	animation-fill-mode: both;
+	transform-origin: bottom;
 	z-index: 5;
 }
 
 .s6 {
 	position: absolute;
-  left: 832px;
-  top: 457px;
-  width: 219px;
-  height: 297px;
-	animation: flipInY 0.5s;
-	animation-delay: 1s;
+  left: 895px;
+  top: 499px;
+  width: 148px;
+  height: 148px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s7 {
 	position: absolute;
-  left: 465px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 1.8s;
+  left: 352px;
+  top: 632px;
+  width: 467px;
+  height: 52px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s8 {
 	position: absolute;
-  left: 488px;
-  top: 446px;
-  width: 109px;
-  height: 85px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 2.2s;
+  left: 373px;
+  top: 695px;
+  width: 624px;
+  height: 75px;
+	animation: lightSpeedInRight 0.5s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s9 {
 	position: absolute;
-  left: 660px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 2.6s;
+  left: 687px;
+  top: 725px;
+  width: 250px;
+  height: 33px;
+	animation: flashLongOff 2s infinite;
+	animation-delay: 2.3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s10 {
 	position: absolute;
-  left: 682px;
-  top: 446px;
-  width: 118px;
-  height: 78px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 3s;
+  left: 938px;
+  top: 661px;
+  width: 100px;
+  height: 100px;
+	animation: flashLongOff 0.2s infinite;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s11 {
 	position: absolute;
-  left: 856px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 3.4s;
+  left: 938px;
+  top: 702px;
+  width: 60px;
+  height: 59px;
+	animation: flashLongOff 0.2s infinite;
+	animation-delay: 2.8s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s12 {
 	position: absolute;
-  left: 871px;
-  top: 446px;
-  width: 125px;
-  height: 109px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 3.8s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s13 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s14 {
-	position: absolute;
-  left: 1060px;
-  top: 446px;
-  width: 145px;
-  height: 80px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 4.6s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s15 {
-	position: absolute;
-  left: 465px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 1.8s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s16 {
-	position: absolute;
-  left: 488px;
-  top: 446px;
-  width: 109px;
-  height: 85px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 2.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s17 {
-	position: absolute;
-  left: 660px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 2.6s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s18 {
-	position: absolute;
-  left: 682px;
-  top: 446px;
-  width: 118px;
-  height: 78px;
-	animation: fadeInDownSmall 0.5s;
+  left: 943px;
+  top: 686px;
+  width: 54px;
+  height: 84px;
+	animation: pulseBig 1s infinite;
 	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
-.s19 {
-	position: absolute;
-  left: 856px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 3.4s;
-	animation-fill-mode: both;
-	z-index: 5;
+@keyframes pulseBig {
+  0% {
+    -webkit-transform: scale3d(0.8, 0.8, 0.8);
+    transform: scale3d(0.8, 0.8, 0.8);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(0.8, 0.8, 0.8);
+    transform: scale3d(0.8, 0.8, 0.8);
+  }
 }
 
-.s20 {
-	position: absolute;
-  left: 871px;
-  top: 446px;
-  width: 125px;
-  height: 109px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 3.8s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s21 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s22 {
-	position: absolute;
-  left: 1060px;
-  top: 446px;
-  width: 145px;
-  height: 80px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 4.6s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s23 {
-	position: absolute;
-  left: 660px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 2.6s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s24 {
-	position: absolute;
-  left: 682px;
-  top: 446px;
-  width: 118px;
-  height: 78px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 3s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s25 {
-	position: absolute;
-  left: 856px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 3.4s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s26 {
-	position: absolute;
-  left: 871px;
-  top: 446px;
-  width: 125px;
-  height: 109px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 3.8s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s27 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s28 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s29 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s30 {
-	position: absolute;
-  left: 1051px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 4.2s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-
-@keyframes flashLong {
+@keyframes flashLongOff {
   0%,  100% {
     opacity: 0;
   }
 
   25%, 50%, 75% {
     opacity: 1;
-  }
-}
-
-
-@-webkit-keyframes fadeInDownSmall {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-
-@keyframes zoomInLight {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 0.6;
-  }
-}
-
-@keyframes fadeInDownSmall {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
   }
 }
