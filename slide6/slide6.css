@@ -108,6 +108,7 @@
 	animation: flashLongOff 1s infinite;
 	animation-delay: 2.3s;
 	animation-fill-mode: both;
+	display: none;
 	z-index: 10;
 }
 
