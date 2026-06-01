@@ -52,9 +52,10 @@
   top: 686px;
   width: 507px;
   height: 68px;
-	animation: flashLongOff 2s infinite;
+	animation: zoomIn 0.5s;
 	animation-delay: 1.3s;
 	animation-fill-mode: both;
+	transform-origin: bottom left;
 	z-index: 5;
 }
 

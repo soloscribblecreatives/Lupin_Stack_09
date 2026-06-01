@@ -29,7 +29,7 @@
   width: 110px;
   height: 110px;
 	animation: zoomIn 0.3s;
-	animation-delay: 0.5s;
+	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
@@ -40,9 +40,10 @@
   top: 288px;
   width: 186px;
   height: 25px;
-	animation: flashLongOff 2s infinite;
+	animation: zoomIn 0.5s;
 	animation-delay: 0.5s;
 	animation-fill-mode: both;
+	transform-origin: bottom left;
 	z-index: 5;
 }
 
@@ -82,6 +83,18 @@
 	animation-delay: 1.6s;
 	animation-fill-mode: both;
 	transform-origin: left;
+	z-index: 10;
+}
+
+.s8 {
+	position: absolute;
+  left: 596px;
+  top: 498px;
+  width: 165px;
+  height: 54px;
+	animation: flashLongOff 1s infinite;
+	animation-delay: 2s;
+	animation-fill-mode: both;
 	z-index: 10;
 }
 
