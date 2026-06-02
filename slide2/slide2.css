@@ -101,10 +101,9 @@
   top: 725px;
   width: 250px;
   height: 33px;
-	animation: zoomIn 0.5s;
-	animation-delay: 2.3s;
+	animation: lightSpeedInRight 0.5s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
-	transform-origin: bottom left;
 	z-index: 5;
 }
 

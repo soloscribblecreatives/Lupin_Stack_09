@@ -40,7 +40,7 @@
   top: 288px;
   width: 186px;
   height: 25px;
-	animation: zoomIn 0.5s;
+	animation: none 0.5s;
 	animation-delay: 0.5s;
 	animation-fill-mode: both;
 	transform-origin: bottom left;
@@ -54,7 +54,7 @@
   width: 546px;
   height: 100px;
 	animation: zoomIn 0.5s;
-	animation-delay: 1.2s;
+	animation-delay: 0.7s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 5;
@@ -67,7 +67,7 @@
   width: 546px;
   height: 106px;
 	animation: zoomIn 0.5s;
-	animation-delay: 1.4s;
+	animation-delay: 0.9s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 8;
@@ -80,7 +80,7 @@
   width: 546px;
   height: 111px;
 	animation: zoomIn 0.5s;
-	animation-delay: 1.6s;
+	animation-delay: 1.1s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 10;
@@ -93,7 +93,7 @@
   width: 165px;
   height: 54px;
 	animation: flashLongOff 1s infinite;
-	animation-delay: 2s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	display: none;
 	z-index: 10;
